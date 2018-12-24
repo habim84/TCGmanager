@@ -14,6 +14,9 @@
         android:background="?attr/colorPrimary"
         app:layout_collapseMode="pin"
         app:popupTheme="@style/ThemeOverlay.AppCompat" />
-
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_game_suite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>
